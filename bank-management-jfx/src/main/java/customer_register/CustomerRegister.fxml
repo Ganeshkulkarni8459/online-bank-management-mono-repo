@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="742.0" prefWidth="1398.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer_register.CustomerRegisterController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="144.00010681152344" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.000244140625" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="599.0" layoutX="0.0" layoutY="143.0" stroke="BLACK" strokeType="INSIDE" width="1399.9999000000025" />
+    <ImageView fitHeight="490.3926590957326" fitWidth="922.0000610351562" layoutX="478.0" layoutY="205.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="158.0001220703125" fitWidth="150.41612214543298" layoutX="29.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="134.0" fitWidth="134.0" layoutX="1220.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="438.0" layoutY="61.0" text="Online Bank" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="652.0" layoutY="61.0" text="Management System" textFill="BLACK" />
+    <Label layoutX="544.0" layoutY="158.0" text="Customer Register...!">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="98.0" layoutY="211.0" text="First Name">
+      <font>
+        <Font size="25.0" fx:id="x2" />
+      </font>
+    </Label>
+    <TextField id="email_Id" fx:id="firstName" layoutX="98.0" layoutY="249.0" opacity="0.82" prefHeight="40.0" prefWidth="476.0" promptText="Enter first name" style="" />
+    <Label font="$x2" layoutX="98.0" layoutY="292.0" text="Date of Birth" />
+    <Button fx:id="register" blendMode="SRC_OVER" layoutX="598.0" layoutY="679.0" mnemonicParsing="false" mouseTransparent="false" onAction="#register" prefHeight="51.0" prefWidth="216.0" text="Register Customer" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x3" />
+      </font>
+      <rotationAxis>
+        <Point3D x="2.0" y="2.0" z="2.0" />
+      </rotationAxis>
+    </Button>
+    <Label font="$x2" layoutX="98.0" layoutY="380.0" text="Enter email Id" />
+    <TextField id="email_Id" fx:id="email" layoutX="98.0" layoutY="423.0" opacity="0.82" prefHeight="40.0" prefWidth="476.0" promptText="Enter email Id...." style="" />
+    <Label font="$x2" layoutX="98.0" layoutY="470.0" text="Branch" />
+    <Label font="$x2" layoutX="98.0" layoutY="554.0" text="Permanent Address" />
+    <Label font="$x2" layoutX="830.0" layoutY="211.0" text="Last Name" />
+    <Label font="$x2" layoutX="834.0" layoutY="554.0" text="Present Address" />
+    <Label font="$x2" layoutX="835.0" layoutY="470.0" text="Password" />
+    <Label font="$x2" layoutX="830.0" layoutY="380.0" text="Gender" />
+    <Label font="$x2" layoutX="834.0" layoutY="292.0" text="Mobile Number" />
+    <TextField id="email_Id" fx:id="lastName" layoutX="830.0" layoutY="249.0" opacity="0.82" prefHeight="40.0" prefWidth="476.0" promptText="Enter last name" style="" />
+    <TextField id="email_Id" fx:id="mobileNumber" layoutX="830.0" layoutY="330.0" opacity="0.82" prefHeight="40.0" prefWidth="476.0" promptText="Enter phone number" style="" />
+    <TextField id="email_Id" fx:id="permanentAddress" alignment="TOP_LEFT" layoutX="98.0" layoutY="588.0" opacity="0.82" prefHeight="73.0" prefWidth="476.0000999999975" promptText="Enter permanent address" style="" />
+    <TextField id="email_Id" fx:id="password" layoutX="830.0" layoutY="504.0" opacity="0.82" prefHeight="40.0" prefWidth="476.0" promptText="Enter username" style="" />
+    <TextField id="email_Id" fx:id="presentAddress" alignment="TOP_LEFT" layoutX="834.0" layoutY="588.0" opacity="0.82" prefHeight="73.0" prefWidth="476.0000999999975" promptText="Enter permanent address" style="" />
+    <Button fx:id="back" blendMode="SRC_OVER" font="$x3" layoutX="1194.0" layoutY="679.0" mnemonicParsing="false" mouseTransparent="false" onAction="#back" prefHeight="51.0" prefWidth="186.0" text="Back" textFill="#e40e0e">
+      <rotationAxis>
+        <Point3D x="2.0" y="2.0" z="2.0" />
+      </rotationAxis>
+    </Button>
+      <ComboBox fx:id="gender" layoutX="830.0" layoutY="426.0" prefHeight="34.0" prefWidth="477.0" promptText="Select Gender" />
+      <DatePicker fx:id="dateOfBirth" layoutX="97.0" layoutY="335.0" prefHeight="34.0" prefWidth="476.0" promptText="Enter Date Of Birth.." />
+      <ComboBox fx:id="selectBranch" layoutX="97.0" layoutY="507.0" prefHeight="34.0" prefWidth="477.0" promptText="Select Branch" />
+  </children>
+</AnchorPane>

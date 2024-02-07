@@ -1,0 +1,51 @@
+
+#AnchorPane {
+    -fx-background-color: #f8f4ec; /* Background color for the entire AnchorPane */
+}
+
+.button {
+    -fx-background-radius: 10; /* Rounded corners for buttons */
+    -fx-border-radius: 10;
+}
+.text-field {
+    -fx-prompt-text-fill: #d93fe4; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-border-radius: 10; /* Rounded corners for text fields */
+    -fx-background-radius: 10;
+    -fx-font-size: 20px;  
+    -fx-font-style: "sans-serif";
+}
+.comboBox{
+    -fx-border-color:#d63484 ;
+    -fx-prompt-text-fill: #d93fe4;
+
+}
+.text-field:hover {
+    -fx-background-color: #37e6de; /* Background color for text fields on hover */
+    -fx-border-color: #030404; /* Border color for text fields on hover */
+}
+
+#messageLabel {
+    -fx-text-fill: #ff0000; /* Text color for messages */
+    -fx-font-size: 18px; /* Font size for messages */
+}
+
+#separator {
+    -fx-background-color: #d63484; /* Color for separator line */
+}
+#changePin{
+    -fx-background-color: #16d919;
+    -fx-border-color:black ;
+}
+#changePin:hover{
+    -fx-background-color: #000000;
+}
+#back{
+    -fx-background-color: #e6f7ed;  
+    -fx-border-color: red; 
+}
+#back:hover{
+    -fx-background-color: #070908; 
+}
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0000999999975" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home_screen.HomeScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="65.0000991821289" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.0">
+      <fill>
+        <Color blue="0.518" green="0.204" red="0.839" fx:id="x1" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="33.999969482421875" layoutX="0.0" layoutY="666.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="601.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+    <ImageView fitHeight="599.0" fitWidth="1329.7800256561816" layoutX="70.0" layoutY="67.0" opacity="0.35" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bank-building-removebg-preview-adjusted-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="293.0" fitWidth="293.0" layoutX="8.0" layoutY="253.0" opacity="0.35" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@manwithmoneyfi-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <Label layoutX="564.0" layoutY="286.0" text="Welcome To">
+      <font>
+        <Font name="Goudy Old Style Bold" size="65.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="308.0" layoutY="378.0" text="Online Bank Management System" />
+    <Label layoutX="70.0" layoutY="17.0" text="Online Bank Management">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Label>
+    <Button fx:id="loginCustomer" layoutX="883.0" layoutY="11.0" mnemonicParsing="false" onAction="#loginCustomer" style="-fx-background-color: #402B3A; -fx-background-radius: 20px; -fx-border-radius: 20px; -fx-border-color: #F8F4EC;" text="Login Customer" textFill="#ff9bd2">
+      <font>
+        <Font name="System Bold" size="17.0" fx:id="x3" />
+      </font>
+    </Button>
+    <ImageView fitHeight="45.75" fitWidth="61.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bankk2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <Button fx:id="aboutUs" font="$x3" layoutX="1255.0" layoutY="13.0" mnemonicParsing="false" onAction="#aboutUs" prefHeight="40.0" prefWidth="131.0" style="-fx-background-color: #402B3A; -fx-background-radius: 20px; -fx-border-radius: 20px; -fx-border-color: #F8F4EC;" text="About us" textFill="#ff9bd2" />
+    <Button fx:id="developerContact" font="$x3" layoutX="1055.0" layoutY="11.0" mnemonicParsing="false" onAction="#developerContact" style="-fx-background-color: #402B3A; -fx-background-radius: 20px; -fx-border-radius: 20px; -fx-border-color: #F8F4EC;" text="Developers Contact" textFill="#ff9bd2" />
+    <Button fx:id="adminRegister" font="$x3" layoutX="523.0" layoutY="13.0" mnemonicParsing="false" onAction="#adminRegister" style="-fx-background-color: #402B3A; -fx-background-radius: 20px; -fx-border-color: #F8F4EC; -fx-border-radius: 20px;" text="Admin Register" textFill="#ff9bd2" />
+    <Button fx:id="adminLogin" font="$x3" layoutX="708.0" layoutY="13.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #402B3A; -fx-border-radius: 20px; -fx-background-radius: 20px; -fx-border-color: #F8F4EC;" text="Admin Login" textFill="#ff9bd2" />
+  </children>
+</AnchorPane>

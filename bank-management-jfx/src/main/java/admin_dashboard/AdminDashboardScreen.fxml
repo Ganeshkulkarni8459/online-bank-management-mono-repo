@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.9999000000025" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin_dashboard.AdminDashboardScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="200.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="514.0" layoutX="1.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" width="1400.0001220703125" />
+    <ImageView fitHeight="186.00001525878906" fitWidth="177.07202266384334" layoutX="14.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bankk2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="512.936241576192" fitWidth="964.3848266601562" layoutX="436.0" layoutY="187.0" opacity="0.21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MoneyPaint.jpg" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="147.0" fitWidth="147.0" layoutX="1226.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@office2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <Label layoutX="338.0" layoutY="71.0" prefHeight="58.0" prefWidth="781.0" text="Welcome To Online Bank Management System">
+      <font>
+        <Font name="System Bold" size="35.0" />
+      </font>
+    </Label>
+    <Label layoutX="601.0" layoutY="210.0" text="Dashboard">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="117.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Screenshot_2024-01-13_164331-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="601.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Screenshot_2024-01-13_164338-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1057.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Screenshot_2024-01-13_164408-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="121.0" layoutY="486.0" text="Total Customers">
+      <font>
+        <Font name="System Bold" size="25.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="614.0" layoutY="486.0" text="Total Accounts" />
+    <Label font="$x1" layoutX="1059.0" layoutY="486.0" text="Total Transaction" />
+    <Label layoutX="109.0" layoutY="459.0" text="Click here to see total customers" />
+    <Label layoutX="595.0" layoutY="459.0" text="Click here to see total accounts" />
+    <Label layoutX="1057.0" layoutY="459.0" text="Click here to see total transaction" />
+    <Button fx:id="totalCustomer" layoutX="108.0" layoutY="336.0" mnemonicParsing="false" onAction="#totalCustomer" opacity="0.0" prefHeight="127.0" prefWidth="219.0" text="Button" />
+    <Button fx:id="totalAccounts" layoutX="601.0" layoutY="342.0" mnemonicParsing="false" onAction="#totalAccounts" opacity="0.0" prefHeight="127.0" prefWidth="219.0" text="Button" />
+    <Button fx:id="totalTransaction" layoutX="1049.0" layoutY="336.0" mnemonicParsing="false" onAction="#totalTransaction" opacity="0.0" prefHeight="126.99990000000253" prefWidth="216.0" text="Button" />
+    <Button fx:id="back" layoutX="629.0" layoutY="623.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="188.0" text="Back" textFill="#fb0606">
+      <font>
+        <Font name="System Bold" size="21.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>

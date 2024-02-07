@@ -1,0 +1,73 @@
+/* Apply styles to text fields */
+.text-field {
+    -fx-prompt-text-fill: #d93fe4; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-border-radius: 10; /* Rounded corners for text fields */
+    -fx-background-radius: 10;
+    -fx-font-size: 20px;  
+    -fx-font-style: "sans-serif";
+}
+
+.text-field:hover {
+    -fx-background-color: #37e6de; /* Background color for text fields on hover */
+    -fx-border-color: #030404; /* Border color for text fields on hover */
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-background-radius: 10; /* Rounded corners for buttons */
+    -fx-border-radius: 10;
+}
+
+.combo-box {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #000000;
+    -fx-border-radius: 5;
+}
+
+.combo-box:hover {
+    -fx-background-color: #37e6de; /* Lighter color on hover */
+}
+
+/* Apply styles to date picker */
+.date-picker {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #000000;
+    -fx-border-radius: 5;
+}
+
+.date-picker:hover {
+    -fx-background-color: #f2f2f2; /* Lighter color on hover */
+}
+
+/* Add more styles as needed */
+
+/* Apply styles to other elements as needed */
+#AnchorPane {
+    -fx-background-color: #f8f4ec;
+}
+
+#register, #back {
+    -fx-min-width: 120;
+}
+
+/* Add more styles if needed */
+#register{
+    -fx-background-color: #16d919;
+    -fx-border-color:black ;
+}
+#register:hover{
+    -fx-background-color: #000000;
+}
+#back{
+    -fx-background-color: #e6f7ed;  
+    -fx-border-color: red; 
+}
+#back:hover{
+    -fx-background-color: #070908; 
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="1399.9996337890625" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="total_customer_bank_account.TotalCustomerBankAccountController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="89.99998474121094" layoutX="0.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="1399.9996558593775" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="639.9998779296875" layoutX="0.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="1400.00022207031" />
+    <ImageView fitHeight="514.3269804244155" fitWidth="966.9996337890625" layoutX="433.0" layoutY="172.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="24.0" layoutY="21.0" text="Total Account" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffccfd" height="70.0" layoutX="0.0" layoutY="92.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" width="1400.000244140625" />
+    <ImageView fitHeight="51.0" fitWidth="68.0" layoutX="1323.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@back-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="33.75" fitWidth="45.0" layoutX="1269.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="back" layoutX="1314.0" layoutY="13.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="70.0" prefWidth="65.0" text="Button" />
+      <TableView fx:id="tableView" layoutX="36.0" layoutY="226.0" prefHeight="406.0" prefWidth="1327.0">
+        <columns>
+          <TableColumn fx:id="customerId" prefWidth="105.0" text="Customer ID" />
+          <TableColumn fx:id="firstName" minWidth="0.0" prefWidth="111.0" text="First Name" />
+            <TableColumn fx:id="lastName" minWidth="0.0" prefWidth="108.0" text="Last Name" />
+            <TableColumn fx:id="mobileNumber" minWidth="0.0" prefWidth="166.0" text="Mobile Number" />
+            <TableColumn fx:id="emailId" minWidth="0.0" prefWidth="187.0" text="Email ID" />
+            <TableColumn fx:id="atmPin" prefWidth="107.0" text="ATM Pin" />
+            <TableColumn fx:id="cardNo" prefWidth="174.0" text="Account Number" />
+            <TableColumn fx:id="accountType" prefWidth="116.0" text="Account Type" />
+            <TableColumn fx:id="balance" prefWidth="124.0" text="Balance" />
+            <TableColumn fx:id="accountStatus" prefWidth="128.0" text="Account Status" />
+        </columns>
+      </TableView>
+      <TextField fx:id="customerIds" layoutX="49.0" layoutY="109.0" prefHeight="42.0" prefWidth="205.0" promptText="Search By Customer Id" />
+      <TextField fx:id="firstNames" layoutX="303.0" layoutY="109.0" prefHeight="42.0" prefWidth="205.0" promptText="Search By First Name" />
+      <TextField fx:id="accountNumber" layoutX="565.0" layoutY="109.0" prefHeight="42.0" prefWidth="205.0" promptText="Search By Account Number" />
+      <Button fx:id="reset" layoutX="1187.0" layoutY="102.0" mnemonicParsing="false" onAction="#reset" prefHeight="51.0" prefWidth="164.0" text="Reset">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+  </children>
+</AnchorPane>

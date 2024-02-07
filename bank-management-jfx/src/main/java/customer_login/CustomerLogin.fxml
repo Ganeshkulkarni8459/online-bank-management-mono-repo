@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="703.0" prefWidth="1397.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer_login.CustomerLoginController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="169.00010681152344" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1399.99977792969" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="560.9998779296875" layoutX="0.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="1400.00022207031" />
+    <ImageView fitHeight="515.3907969042991" fitWidth="968.999755859375" layoutX="424.0" layoutY="180.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="158.0001220703125" fitWidth="150.41612214543298" layoutX="29.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="134.0" fitWidth="134.0" layoutX="1220.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="442.0" layoutY="62.0" text="Online  Bank" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="673.0" layoutY="61.0" text="Management  System" textFill="BLACK" />
+    <Label layoutX="79.0" layoutY="514.0" text="Customer Login...!">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="555.0" layoutY="235.0" text="Email Id">
+      <font>
+        <Font size="25.0" fx:id="x2" />
+      </font>
+    </Label>
+    <TextField id="email_Id" fx:id="email" layoutX="563.0" layoutY="296.0" opacity="0.82" prefHeight="54.0" prefWidth="404.0" promptText="Enter Email ID" style="" />
+    <Label font="$x2" layoutX="547.0" layoutY="393.0" text="Password" />
+    <TextField id="password" fx:id="password" layoutX="563.0" layoutY="460.0" opacity="0.82" prefHeight="54.0" prefWidth="404.0" promptText="Enter Password..." style="&#10;" />
+    <Button fx:id="login" blendMode="SRC_OVER" layoutX="684.0" layoutY="578.0" mnemonicParsing="false" mouseTransparent="false" onAction="#login" prefHeight="51.0" prefWidth="188.0" text="Login" textFill="#f8f4f4">
+      <font>
+        <Font name="System Bold" size="24.0" fx:id="x3" />
+      </font>
+      <rotationAxis>
+        <Point3D x="2.0" y="2.0" z="2.0" />
+      </rotationAxis>
+    </Button>
+    <Button fx:id="back" blendMode="SRC_OVER" font="$x3" layoutX="1176.0" layoutY="578.0" mnemonicParsing="false" mouseTransparent="false" onAction="#back" prefHeight="51.0" prefWidth="188.0" text="Back" textFill="#e70909">
+      <rotationAxis>
+        <Point3D x="2.0" y="2.0" z="2.0" />
+      </rotationAxis>
+    </Button>
+    <Separator layoutX="403.0" layoutY="169.0" orientation="VERTICAL" prefHeight="560.9998779296875" />
+    <ImageView fitHeight="262.0" fitWidth="349.3333333333333" layoutX="79.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Admin-removebg-preview.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

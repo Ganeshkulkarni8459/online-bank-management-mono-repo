@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.999977929685" prefWidth="1399.9779052734375" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_account.AddAccountScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="200.0" layoutX="0.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1399.9779052734375" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="501.0" layoutX="1.0" layoutY="198.0" stroke="BLACK" strokeType="INSIDE" width="1399.9779052734375" />
+    <ImageView fitHeight="171.0" fitWidth="162.7920033709603" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="143.0" fitWidth="143.0" layoutX="1214.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="499.9094243635876" fitWidth="939.892822265625" layoutX="257.0" layoutY="211.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="422.0" layoutY="80.0" text="Online Bank Management System">
+      <font>
+        <Font name="System Bold" size="35.0" />
+      </font>
+    </Label>
+    <Label layoutX="592.0" layoutY="210.0" text="Add Account...!">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label id="branchName" layoutX="210.0" layoutY="288.0" text="Customer Id">
+      <font>
+        <Font size="25.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label id="city" font="$x1" layoutX="210.0" layoutY="392.0" text="Account Type" />
+    <Label font="$x1" layoutX="210.0" layoutY="505.0" text="ATM Pin" />
+    <TextField id="name" fx:id="customerId" layoutX="210.0" layoutY="329.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter customer id..." />
+    <TextField id="state" fx:id="atmPin" layoutX="210.0" layoutY="550.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter ATM pin...." />
+    <Button fx:id="addAccount" layoutX="653.0" layoutY="639.0" mnemonicParsing="false" onAction="#addAccount" prefHeight="51.0" prefWidth="188.0" text="Add Account" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="21.0" fx:id="x3" />
+      </font>
+    </Button>
+    <Label font="$x1" layoutX="871.0" layoutY="288.0" text="Card Number" />
+    <Label font="$x1" layoutX="871.0" layoutY="392.0" text="Balance" />
+    <Label font="$x1" layoutX="871.0" layoutY="505.0" text="Account Status" />
+    <TextField fx:id="cardNumber" layoutX="878.0" layoutY="329.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter card number..." />
+    <TextField fx:id="balance" layoutX="871.0" layoutY="438.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter balance..." />
+    <Button fx:id="back" layoutX="1192.0" layoutY="639.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="188.0" text="Back" textFill="#f50606">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font></Button>
+      <ComboBox fx:id="accountType" layoutX="210.0" layoutY="439.0" onAction="#accountType" prefHeight="54.0" prefWidth="404.0" promptText="select account type..." />
+      <ComboBox fx:id="accountStatus" layoutX="877.0" layoutY="551.0" onAction="#accountStatus" prefHeight="54.0" prefWidth="405.0" promptText="select account status...." />
+  </children>
+</AnchorPane>

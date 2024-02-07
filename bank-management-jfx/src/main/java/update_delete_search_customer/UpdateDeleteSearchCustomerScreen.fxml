@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.999977929685" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="update_delete_search_customer.UpdateDeleteSearchCustomerScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="107.29409790039062" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="595.0" layoutY="99.0" stroke="BLACK" strokeType="INSIDE" width="1400.0001220703125" />
+    <ImageView fitHeight="107.29410290605446" fitWidth="102.14398956298828" layoutX="14.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="79.29409790039062" fitWidth="79.29409790039062" layoutX="1293.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="422.0" layoutY="30.0" text="Online Bank Management System">
+      <font>
+        <Font name="System Bold" size="35.0" />
+      </font>
+    </Label>
+    <Label layoutX="61.0" layoutY="433.0" text="Search User...!">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="411.0" layoutY="122.0" prefHeight="40.0" prefWidth="323.0" text="Customer Id :-">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x2" />
+      </font>
+    </Label>
+    <TextField id="cardNumber" fx:id="lastName" layoutX="740.0" layoutY="240.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter Last name.." style="-fx-border-color: black;" />
+    <ImageView fitHeight="268.71518552311136" fitWidth="249.25830078125" layoutX="36.0" layoutY="138.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@OIP__3_-removebg-preview%20(1).png" />
+      </image>
+    </ImageView>
+    <Separator layoutX="317.0" layoutY="131.0" orientation="VERTICAL" prefHeight="569.0" />
+    <Label font="$x2" layoutX="411.0" layoutY="293.0" prefHeight="40.0" prefWidth="323.0" text="Mobile Number :-" />
+    <TextField id="cardNumber" fx:id="email" layoutX="740.0" layoutY="350.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter email..." style="-fx-border-color: black;" />
+    <Label font="$x2" layoutX="411.0" layoutY="350.0" prefHeight="40.0" prefWidth="323.0" text="Email Id :-" />
+    <TextField id="cardNumber" fx:id="mobileNumber" layoutX="740.0" layoutY="293.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter mobile number...." style="-fx-border-color: black;" />
+    <Label font="$x2" layoutX="411.0" layoutY="480.0" prefHeight="39.999900000002526" prefWidth="323.0" text="Password :-" />
+    <TextField id="cardNumber" fx:id="presentAddress" layoutX="740.0" layoutY="548.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter Address.." style="-fx-border-color: black;" />
+    <Button fx:id="back" layoutX="922.0" layoutY="631.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="188.0" text="Back" textFill="#e81919">
+      <font>
+        <Font name="System Bold" size="21.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="searchUser" font="$x1" layoutX="1199.0" layoutY="117.0" mnemonicParsing="false" onAction="#searchUser" prefHeight="51.0" prefWidth="188.0" text="Search User" textFill="#f8f0f0" />
+    <Button fx:id="editUser" layoutX="1199.0" layoutY="631.0" mnemonicParsing="false" onAction="#editUser" prefHeight="51.0" prefWidth="188.0" text="Edit" textFill="#f8f0f0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font></Button>
+    <Button fx:id="delete" layoutX="640.0" layoutY="631.0" mnemonicParsing="false" onAction="#delete" prefHeight="51.0" prefWidth="188.0" text="Delete" textFill="#ff3333">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Button>
+    <Label font="$x2" layoutX="411.0" layoutY="185.0" prefHeight="40.0" prefWidth="323.0" text="First Name :-" />
+    <TextField id="cardNumber" fx:id="firstName" disable="false" layoutX="740.0" layoutY="182.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter First name..." style="-fx-border-color: black;" />
+    <Label font="$x2" layoutX="411.0" layoutY="240.0" prefHeight="39.999900000002526" prefWidth="323.0" text="Last Name :-" />
+    <TextField id="cardNumber" fx:id="customerId" layoutX="740.0" layoutY="122.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter customer id..." style="-fx-border-color: black;" />
+    <Label font="$x2" layoutX="411.0" layoutY="548.0" prefHeight="39.999900000002526" prefWidth="323.0" text="Present Address :-" />
+    <TextField id="cardNumber" fx:id="password" layoutX="740.0" layoutY="480.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter Password.." style="-fx-border-color: black;" />
+      <Label fx:id="label" layoutX="364.0" layoutY="601.0" opacity="0.0" prefHeight="30.0" prefWidth="483.0" text="Label" />
+      <Label font="$x2" layoutX="411.0" layoutY="413.0" prefHeight="40.0" prefWidth="323.0" text="Account Status :-" />
+      <TextField id="cardNumber" fx:id="accountStatus" layoutX="740.0" layoutY="410.0" prefHeight="40.0" prefWidth="377.0" promptText="Enter email..." style="-fx-border-color: black;" />
+  </children>
+</AnchorPane>

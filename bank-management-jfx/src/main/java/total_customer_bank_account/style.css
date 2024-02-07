@@ -1,0 +1,72 @@
+#AnchorPane {
+    -fx-background-color: #ffcccb; /* Light pink background for the entire AnchorPane */
+}
+
+ /* .label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #402b3a; /* Dark purple text color for labels 
+} */
+
+
+
+
+#tableView {
+    -fx-table-cell-border-color: #d63484; /* Table cell border color */
+}
+
+.column-header {
+    -fx-background-color: #d63484; /* Dark pink background color for table column headers */
+    -fx-text-fill: #ffffff; /* White text color for table column headers */
+    -fx-font-size: 15px; /* Font size for table column headers */
+}
+
+#searchByCustomerId, #searchByFirstName, #searchByGender {
+    -fx-prompt-text-fill: #808080; /* Prompt text color for text fields */
+}
+
+#reset {
+    -fx-background-color: #402B3A; /* Dark pink background color for the reset button */
+    -fx-text-fill: #ffffff; /* White text color for the reset button */
+    -fx-background-radius: 20; /* Rounded corners for the reset button */
+}
+
+#reset:hover {
+    -fx-background-color: #0a0809; /* Dark color on reset button hover */
+}
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #000000;
+    -fx-border-radius: 5;
+}
+
+.text-field:hover {
+    -fx-background-color: #5fe9f5; /* Lighter color on hover */
+}
+#reset {
+    -fx-background-radius: 10; /* Rounded corners for buttons */
+    -fx-border-radius: 10;
+}
+.text-field {
+    -fx-prompt-text-fill: #d93fe4; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-border-radius: 10; /* Rounded corners for text fields */
+    -fx-background-radius: 10;
+    -fx-font-size: 15px;  
+    -fx-font-style: "sans-serif";
+}
+
+.text-field:hover {
+    -fx-background-color: #37e6de; /* Background color for text fields on hover */
+    -fx-border-color: #030404; /* Border color for text fields on hover */
+}
+
+#reset{
+    -fx-background-color: #16d919;
+    -fx-border-color:black ;
+}
+#reset:hover{
+    -fx-background-color: #000000;
+}

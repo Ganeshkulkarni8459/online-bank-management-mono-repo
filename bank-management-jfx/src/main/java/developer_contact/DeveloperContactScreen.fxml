@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:controller="developer_contact.DeveloperContactScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="700.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.0">
+      <fill>
+        <Color blue="0.925" green="0.957" red="0.973" fx:id="x1" />
+      </fill>
+    </Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="547.0" layoutX="192.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="1016.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="79.0" layoutX="192.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="1016.0" />
+    <Separator layoutX="192.0" layoutY="260.0" prefWidth="1016.0" />
+    <Separator layoutX="192.0" layoutY="381.0" prefHeight="4.0" prefWidth="1016.0" />
+    <Separator layoutX="192.0" layoutY="499.0" minHeight="2.0" prefHeight="2.0" prefWidth="1016.0" />
+    <Label layoutX="227.0" layoutY="194.0" text="1) Ganesh Kulkarni">
+      <font>
+        <Font name="System Bold" size="25.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="226.0" layoutY="303.0" text="2) Abhijeet Nirphal" />
+    <Label font="$x2" layoutX="226.0" layoutY="419.0" text="3) Shambhuraje Bhosale" />
+    <Label font="$x2" layoutX="226.0" layoutY="540.0" text="4) Ritesh Kolhe" />
+    <Label layoutX="638.0" layoutY="174.0" text="-ganukulkarni8459@gmail.com">
+      <font>
+        <Font size="20.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label font="$x3" layoutX="638.0" layoutY="218.0" text="-8459906102" />
+    <Label font="$x3" layoutX="638.0" layoutY="283.0" text="-nirphalabhijeet72@gmail.com" />
+    <Label font="$x3" layoutX="638.0" layoutY="327.0" text="-9325615701" />
+    <Label font="$x3" layoutX="638.0" layoutY="406.0" text="-shambu5055@gmail.com" />
+    <Label font="$x3" layoutX="638.0" layoutY="453.0" text="-8767979723" />
+    <Label font="$x3" layoutX="638.0" layoutY="530.0" text="-riteshkolhe3031@gmail.com" />
+    <Label font="$x3" layoutX="638.0" layoutY="574.0" text="-9172713131" />
+    <ImageView fitHeight="156.01050352693184" fitWidth="148.52200317382812" layoutX="14.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="114.25" fitWidth="114.25" layoutX="1257.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="536.0" layoutY="93.0" text="Developers Contact">
+      <font>
+        <Font name="System Bold" size="35.0" />
+      </font>
+    </Label>
+    <Separator layoutX="544.0" layoutY="156.0" orientation="VERTICAL" prefHeight="468.0" />
+      <Button fx:id="back" layoutX="1232.0" layoutY="640.0" mnemonicParsing="false" onAction="#back" prefHeight="44.0" prefWidth="139.0" style="-fx-border-color: #e40c0c; -fx-background-color: #e6f7ed;" text="Close" textFill="#e40c0c">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+  </children>
+</AnchorPane>

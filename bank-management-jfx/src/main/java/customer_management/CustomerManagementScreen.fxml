@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer_management.CustomerManagementScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="119.99998474121094" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1399.999755859375" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="609.9998779296875" layoutX="0.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="1400.000244140625">
+      <fill>
+        <Color blue="0.925" green="0.957" red="0.973" fx:id="x3" />
+      </fill>
+    </Rectangle>
+    <ImageView fitHeight="515.3907969042991" fitWidth="968.999755859375" layoutX="433.0" layoutY="171.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="134.0" fitWidth="127.56800527992323" layoutX="29.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="336.0" layoutY="43.0" text="Online  Bank" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="560.0" layoutY="43.0" text="Management  System" textFill="BLACK" />
+    <Label layoutX="1302.0" layoutY="77.0" text="Logout">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x2" />
+      </font>
+    </Label>
+    <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="1314.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@R-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="151.0" fitWidth="151.0" layoutX="1151.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@WhatsApp_Image_2024-01-22_at_12.54.03_48c478cb-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="168.2197265625" fitWidth="239.28151244981004" layoutX="461.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@money-deposit--removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="838.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Withdrawwwwwwwww-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="502.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@3050-200-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="145.5423097320775" fitWidth="158.0" layoutX="852.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@R__1_-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="168.00003051757812" fitWidth="168.00003051757812" layoutX="1146.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@4884422-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label font="$x2" layoutX="560.0" layoutY="395.0" text="Depsoit" />
+    <Label font="$x2" layoutX="871.0" layoutY="390.0" text="WithDraw Cash" />
+    <Label font="$x2" layoutX="1157.0" layoutY="390.0" text="Change Pin" />
+    <Label font="$x2" layoutX="1227.0" layoutY="639.0" text="Details" />
+    <Label font="$x2" layoutX="502.0" layoutY="634.0" text="Transfer Amount " />
+    <Label font="$x2" layoutX="852.0" layoutY="634.0" text="Transaction History" />
+    <Label layoutX="93.0" layoutY="512.0" text="Account Balance">
+      <font>
+        <Font name="System Bold" size="25.0" />
+      </font>
+    </Label>
+    <ImageView fitHeight="238.0" fitWidth="238.0" layoutX="69.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Balance-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Separator layoutX="384.0" layoutY="120.0" orientation="VERTICAL" prefHeight="609.9998779296875" />
+    <ImageView fitHeight="93.9998779296875" fitWidth="125.33317373919805" layoutX="1170.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Button fx:id="logout" layoutX="1279.0" layoutY="25.0" mnemonicParsing="false" onAction="#logout" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <Button fx:id="changePin" layoutX="1102.0" layoutY="187.0" mnemonicParsing="false" onAction="#changePin" opacity="0.05" prefHeight="228.0" prefWidth="240.0" text="" />
+    <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" opacity="0.06" prefHeight="263.0" prefWidth="260.0" text="" />
+    <Button fx:id="withDrawCash" layoutX="813.0" layoutY="187.0" mnemonicParsing="false" onAction="#withDrawCash" opacity="0.05" prefHeight="228.0" prefWidth="225.0" text="Button" />
+    <Button fx:id="deposit" layoutX="484.0" layoutY="188.0" mnemonicParsing="false" onAction="#deposit" opacity="0.05" prefHeight="238.0" prefWidth="217.0" text="Button" />
+    <Button fx:id="accountTransfer" layoutX="462.0" layoutY="467.0" mnemonicParsing="false" onAction="#accountTransfer" opacity="0.05" prefHeight="205.0" prefWidth="238.0" text="Button" />
+    <Button fx:id="transactionHistory" layoutX="815.0" layoutY="467.0" mnemonicParsing="false" onAction="#transactionHistory" opacity="0.05" prefHeight="205.0" prefWidth="233.0" text="" />
+    <Button fx:id="customerDetails" layoutX="1122.0" layoutY="467.0" mnemonicParsing="false" onAction="#customerDetails" opacity="0.05" prefHeight="205.0" prefWidth="225.0" text="" />
+    <Button fx:id="accountBalance" layoutX="54.0" layoutY="228.0" mnemonicParsing="false" onAction="#accountBalance" opacity="0.05" prefHeight="330.0" prefWidth="282.0" text="Account Balance" />
+    <Button layoutX="93.0" layoutY="517.0" minHeight="27.0" mnemonicParsing="false" opacity="0.11" prefHeight="27.0" prefWidth="195.0" text="Account Balance" />
+    <Button layoutX="552.0" layoutY="393.0" mnemonicParsing="false" opacity="0.06" text="Deposit">
+      <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Button>
+    <Button layoutX="860.0" layoutY="390.0" mnemonicParsing="false" opacity="0.06" prefWidth="158.0" text="Button" />
+    <Button layoutX="1151.0" layoutY="388.0" mnemonicParsing="false" opacity="0.07" prefHeight="33.9998779296875" prefWidth="117.0" text="Button" />
+    <Button layoutX="847.0" layoutY="629.0" mnemonicParsing="false" opacity="0.06" prefHeight="34.0" prefWidth="191.0" text="Button" />
+    <Button layoutX="1208.0" layoutY="635.0" mnemonicParsing="false" opacity="0.05" text="Button" />
+  </children>
+</AnchorPane>

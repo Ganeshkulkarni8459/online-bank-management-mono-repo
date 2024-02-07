@@ -1,0 +1,74 @@
+Set default styles for the entire application
+.root {
+    -fx-font-family: "System";
+    -fx-base: #e6f7ed;
+}
+
+/* Set styles for the AnchorPane */
+#AnchorPane {
+    -fx-background-color: #f8f4ec;
+}
+
+/* Set styles for the Rectangle elements */
+Rectangle {
+    -fx-stroke: black;
+    -fx-stroke-type: inside;
+}
+
+/* Set styles for the first Rectangle with the purple fill */
+Rectangle#x1 {
+    -fx-fill: #8743d6;
+}
+
+/* Set styles for the second Rectangle with the light blue fill */
+Rectangle#x2 {
+    -fx-fill: #d6e0f5;
+}
+
+/* Set styles for the third Rectangle with the light brown fill */
+Rectangle#x3 {
+    -fx-fill: #f8f4ec;
+}
+
+/* Set styles for the ImageView elements */
+ImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+    -fx-opacity: 0.35;
+}
+
+/* Set styles for the Label elements */
+/* Label {
+    -fx-font-size: 25;
+} */
+
+/* Set styles for the Font elements */
+Font {
+    -fx-font-family: "Goudy Old Style Bold";
+}
+
+/* Set styles for the Button elements */
+Button {
+    -fx-font-size: 20;
+    -fx-background-radius: 5;
+    -fx-text-fill: rgb(15, 14, 14);
+    -fx-font-style: Bold;
+
+}
+
+/* Set specific styles for each button */
+#loginCustomer, #aboutUs, #developerContact, #adminRegister, #adminLogin {
+    -fx-background-color: #1f9fe9;
+}
+
+/* Set styles for the hover effect on buttons */
+#loginCustomer:hover, #aboutUs:hover, #developerContact:hover, #adminRegister:hover, #adminLogin:hover {
+    -fx-background-color: #402B3A; /* Adjust the color for the hover effect */
+}
+
+/* Set styles for the ImageView elements inside the buttons */
+Button ImageView {
+    -fx-fit-height: 20;
+    -fx-fit-width: 20;
+    -fx-layout-x: 5;
+    -fx-layout-y: 5;
+}

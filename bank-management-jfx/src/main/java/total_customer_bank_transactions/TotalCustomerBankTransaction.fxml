@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="1399.9996337890625" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="total_customer_bank_transactions.TotalCustomerBankTransactionController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="89.99998474121094" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1399.9996558593775" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="639.9998779296875" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="1400.00022207031" />
+    <ImageView fitHeight="514.3269804244155" fitWidth="966.9996337890625" layoutX="433.0" layoutY="172.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="24.0" layoutY="21.0" text="Total Transactions" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffccfd" height="70.0" layoutY="95.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" width="1400.000244140625" />
+    <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="1316.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@back-removebg-preview.png" />
+      </image>
+    </ImageView>
+      <Button fx:id="back" layoutX="1311.0" layoutY="10.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="70.0" prefWidth="65.0" text="Button" />
+      <TableView fx:id="tableView" layoutX="145.0" layoutY="199.0" prefHeight="460.0" prefWidth="1181.0">
+        <columns>
+          <TableColumn fx:id="transactionIdColumn" prefWidth="164.0" text="Transacton ID" />
+          <TableColumn fx:id="customerIdColumn" minWidth="0.0" prefWidth="136.0" text="Customer ID" />
+            <TableColumn fx:id="cardNumberColumn" prefWidth="223.0" text="Card Number" />
+            <TableColumn fx:id="amountColumn" prefWidth="181.0" text="Amount" />
+            <TableColumn fx:id="transactionTypeColumn" minWidth="0.0" prefWidth="227.0" text=" Transaction Type" />
+            <TableColumn fx:id="dateAndTimeColumn" prefWidth="249.0" text="Transaction Date And Time" />
+        </columns>
+      </TableView>
+      <TextField fx:id="transactionId" layoutX="145.0" layoutY="107.0" prefHeight="47.0" prefWidth="214.0" promptText="Enter Transaction ID" />
+      <TextField fx:id="amount" layoutX="643.0" layoutY="107.0" prefHeight="47.0" prefWidth="214.0" promptText="Enter Transaction Amount" />
+      <TextField fx:id="cardNumber" layoutX="388.0" layoutY="107.0" prefHeight="47.0" prefWidth="214.0" promptText="Enter Card Number" />
+      <Button fx:id="reset" layoutX="1188.0" layoutY="105.0" mnemonicParsing="false" onAction="#reset" prefHeight="51.0" prefWidth="188.0" text="Reset">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+  </children>
+</AnchorPane>

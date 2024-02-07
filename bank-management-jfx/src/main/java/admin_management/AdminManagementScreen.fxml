@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin_management.AdminManagementScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="119.99998474121094" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1399.999755859375" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="609.9998779296875" layoutX="0.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="1400.000244140625">
+      <fill>
+        <Color blue="0.925" green="0.957" red="0.973" fx:id="x3" />
+      </fill>
+    </Rectangle>
+    <ImageView fitHeight="515.3907969042991" fitWidth="968.999755859375" layoutX="433.0" layoutY="171.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="134.0" fitWidth="127.56800527992323" layoutX="29.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="336.0" layoutY="43.0" text="Online  Bank" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="560.0" layoutY="43.0" text="Management  System" textFill="BLACK" />
+    <Label layoutX="1302.0" layoutY="77.0" text="Logout">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x2" />
+      </font>
+    </Label>
+    <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="1314.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@R-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="107.0" fitWidth="107.0" layoutX="1160.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Button fx:id="logout" layoutX="1279.0" layoutY="27.0" mnemonicParsing="false" onAction="#logout" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <Separator layoutX="409.0" layoutY="120.0" orientation="VERTICAL" prefHeight="609.9998779296875" />
+    <ImageView fitHeight="256.0" fitWidth="256.0" layoutX="80.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@register-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="171.0" fitWidth="171.0" layoutX="582.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@add-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="171.0" fitWidth="171.0" layoutX="1020.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@branch-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="187.0" fitWidth="187.0" layoutX="582.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Dashboard-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="171.0" fitWidth="171.0" layoutX="1020.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@home-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="134.0" layoutY="491.0" text="Register User">
+      <font>
+        <Font name="System Bold" size="25.0" fx:id="x4" />
+      </font>
+    </Label>
+    <Label layoutX="1041.0" layoutY="387.0" text="Add Branch">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+    <Button font="$x2" layoutX="27.0" layoutY="592.0" mnemonicParsing="false" opacity="0.06" prefHeight="34.0" prefWidth="107.0" text="" />
+    <Button fx:id="register" layoutX="99.0" layoutY="194.0" mnemonicParsing="false" onAction="#register" opacity="0.05" prefHeight="289.0" prefWidth="223.0" text="Button" />
+    <Button fx:id="addAccount" layoutX="560.0" layoutY="160.0" mnemonicParsing="false" onAction="#addAccount" opacity="0.05" prefHeight="198.0" prefWidth="209.0" text="Button" />
+    <Button fx:id="addBranch" layoutX="991.0" layoutY="147.0" mnemonicParsing="false" onAction="#addBranch" opacity="0.05" prefHeight="211.0" prefWidth="223.0" text="Button" />
+    <Button fx:id="dashBoard" layoutX="570.0" layoutY="453.0" mnemonicParsing="false" onAction="#dashBoard" opacity="0.05" prefHeight="187.0" prefWidth="211.0" text="Button" />
+    <Button fx:id="searchUpdateDelete" layoutX="1013.0" layoutY="442.0" mnemonicParsing="false" onAction="#searchUpdateDelete" opacity="0.05" prefHeight="198.0" prefWidth="188.0" text="Button" />
+    <Button layoutX="1064.0" layoutY="653.0" mnemonicParsing="false" opacity="0.05" />
+      <Label layoutX="582.0" layoutY="386.0" text="Add Account ">
+         <font>
+            <Font name="System Bold" size="25.0" fx:id="x41" />
+         </font>
+      </Label>
+      <Label layoutX="603.0" layoutY="640.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="25.0" fx:id="x411" />
+         </font>
+      </Label>
+      <Label layoutX="1020.0" layoutY="641.0" text="CRUD Operation">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>

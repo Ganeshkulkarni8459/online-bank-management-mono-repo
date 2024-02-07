@@ -1,0 +1,14 @@
+#totalAccounts:hover{
+    -fx-background-color: #d93fe4; 
+}
+#back:hover{
+    -fx-background-color: black;
+}
+.button {
+    -fx-background-radius: 10; /* Rounded corners for buttons */
+    -fx-border-radius: 10;
+}
+#back{
+    -fx-background-color: #e6f7ed;  
+    -fx-border-color: red; 
+}

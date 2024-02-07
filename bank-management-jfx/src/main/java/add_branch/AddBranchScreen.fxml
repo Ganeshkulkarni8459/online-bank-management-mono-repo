@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.9999000000025" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_branch.AddBranchScreenController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="200.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="514.0" layoutX="0.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+        <ImageView fitHeight="186.0" fitWidth="177.07202266384334" layoutX="14.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Bankk2-removebg-preview.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="512.936241576192" fitWidth="964.3848266601562" layoutX="436.0" layoutY="186.0" opacity="0.21" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@MoneyPaint.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="147.0" fitWidth="147.0" layoutX="1226.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@office2-removebg-preview.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="338.0" layoutY="71.0" prefHeight="58.0" prefWidth="781.0" text="Welcome To Online Bank Management System">
+            <font>
+                <Font name="System Bold" size="35.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="488.0" text="Add Branch...!">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Label>
+        <Label id="branchName" layoutX="551.0" layoutY="267.0" text="Branch Name">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label id="city" layoutX="551.0" layoutY="377.0" text="City">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label id="state" layoutX="551.0" layoutY="486.0" text="State">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <TextField id="name" fx:id="branchName" layoutX="559.0" layoutY="317.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter name..." />
+        <TextField id="city" fx:id="city" layoutX="559.0" layoutY="426.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter city....." />
+        <TextField id="state" fx:id="state" layoutX="559.0" layoutY="534.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter state...." />
+        <Button fx:id="addBranch" layoutX="684.0" layoutY="626.0" mnemonicParsing="false" onAction="#addBranch" prefHeight="51.0" prefWidth="188.0" text="Add Branch" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Button>
+        <Button id="back" fx:id="back" layoutX="1181.0" layoutY="626.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="188.0" text="Back" textFill="#f22f0c">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Button>
+        <Separator layoutX="389.0" layoutY="186.0" orientation="VERTICAL" prefHeight="512.9362182617188" />
+        <ImageView fitHeight="181.0" fitWidth="181.0" layoutX="103.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@addbranchh-removebg-preview.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

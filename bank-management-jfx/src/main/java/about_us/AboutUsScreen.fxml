@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" stylesheets="@style.css" fx:controller="about_us.AboutUsScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="131.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="569.0" layoutX="-2.0" layoutY="133.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+    <ImageView fitHeight="121.99999237060547" fitWidth="116.14398742640631" layoutX="0.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bankk2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="88.14398193359375" fitWidth="88.14398193359375" layoutX="1201.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@office2-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="422.0" layoutY="43.0" text="Online Bank Management System">
+      <font>
+        <Font name="System Bold" size="35.0" />
+      </font>
+    </Label>
+    <Separator layoutX="338.0" layoutY="127.0" orientation="VERTICAL" prefHeight="569.0" />
+    <ImageView fitHeight="192.04164123535156" fitWidth="268.85830102121975" layoutX="28.0" layoutY="193.0" opacity="0.62" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@OIP__5_-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="85.0" layoutY="417.0" opacity="1.0" prefHeight="48.0" prefWidth="154.0" text="About Us...!!">
+      <font>
+        <Font name="System Bold" size="25.0" fx:id="x1" />
+      </font>
+    </Label>
+    <ImageView fitHeight="568.0" fitWidth="1008.7679478713579" layoutX="391.0" layoutY="131.0" opacity="0.08" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@about-us-page-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Label font="$x1" layoutX="755.0" layoutY="139.0" text="ROLES OF USER" />
+    <Label layoutX="516.0" layoutY="193.0" text="Admin Role">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="1063.0" layoutY="193.0" text="Customer Role" />
+    <Separator layoutX="852.0" layoutY="185.0" orientation="VERTICAL" prefHeight="484.0" />
+    <Separator layoutX="354.0" layoutY="185.0" minHeight="1.220703125E-4" prefHeight="1.0" prefWidth="1036.0" />
+    <Label layoutX="374.0" layoutY="238.0" text="1) Admin will be able to Register into the System.">
+      <font>
+        <Font size="20.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label font="$x3" layoutX="374.0" layoutY="282.0" text="2) Admin can log in to the System." />
+    <Label font="$x3" layoutX="374.0" layoutY="330.0" text="3) Admin can add the Bank Branch." />
+    <Label font="$x3" layoutX="374.0" layoutY="379.0" text="4) Admin can register the customers." />
+    <Label font="$x3" layoutX="374.0" layoutY="427.0" text="5) Admin can add the Bank Account for the Customer." />
+    <Label font="$x3" layoutX="374.0" layoutY="522.0" text="7) Admin can see the Dashboard" />
+    <Label font="$x3" layoutX="391.0" layoutY="558.0" text="i) Total Customers" />
+    <Label font="$x3" layoutX="391.0" layoutY="592.0" text="ii) Total Customer Bank Accounts" />
+    <Label font="$x3" layoutX="391.0" layoutY="626.0" text="iii) Total Customer Bank Transactions" />
+    <Label font="$x3" layoutX="895.0" layoutY="238.0" text="1) Customer can Log in to the System." />
+    <Label font="$x3" layoutX="895.0" layoutY="282.0" text="2) Customer can Withdraw the Amount." />
+    <Label font="$x3" layoutX="895.0" layoutY="330.0" text="3) Customer can Deposit the Amount." />
+    <Label font="$x3" layoutX="897.0" layoutY="379.0" text="4) Customer can do the Account Transfer." />
+    <Label font="$x3" layoutX="897.0" layoutY="427.0" text="5) Customer can fetch his Account Balance." />
+    <Label font="$x3" layoutX="897.0" layoutY="473.0" text="6) Customer can fetch his Account Details." />
+    <Label font="$x3" layoutX="895.0" layoutY="522.0" text="7) Customer can change the ATM PIN." />
+    <Label font="$x3" layoutX="895.0" layoutY="569.0" text="8) Customer can view his Transaction History." />
+    <Label font="$x3" layoutX="374.0" layoutY="473.0" text="6) Admin can search update and delete the customer." />
+    <Separator layoutX="354.0" layoutY="228.0" minHeight="1.220703125E-4" prefHeight="1.0" prefWidth="1036.0" />
+    <Separator layoutX="354.0" layoutY="669.0" minHeight="1.220703125E-4" prefHeight="1.0" prefWidth="1036.0" />
+    <Separator layoutX="1386.0" layoutY="186.0" orientation="VERTICAL" prefHeight="484.0" />
+    <Separator layoutX="350.0" layoutY="185.0" orientation="VERTICAL" prefHeight="484.0" />
+    <ImageView fitHeight="47.99999237060547" fitWidth="96.81700913725855" layoutX="1289.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@OIP__8_-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Button fx:id="back" layoutX="1308.0" layoutY="36.0" onAction="#back" mnemonicParsing="false" opacity="0.0" prefHeight="63.0" prefWidth="58.0" text="Button" />
+    <Label layoutX="1328.0" layoutY="83.0" minHeight="9.143890380859375" prefHeight="20.0" prefWidth="40.0" text="Back">
+      <font>
+        <Font size="10.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

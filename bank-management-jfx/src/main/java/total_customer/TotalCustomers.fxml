@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="1399.9996337890625" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="total_customer.TotalCustomersController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="89.99998474121094" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1399.9996558593775" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="639.9998779296875" layoutX="0.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="1400.00022207031" />
+    <ImageView fitHeight="514.3269804244155" fitWidth="966.9996337890625" layoutX="433.0" layoutY="172.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@MoneyPaint.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="24.0" layoutY="21.0" text="Total Customer" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="34.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" opacity="0.05" prefHeight="83.0" prefWidth="107.0" text="" />
+    <ImageView fitHeight="49.25" fitWidth="49.25" layoutX="1327.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@back-removebg-preview.png" />
+      </image>
+    </ImageView>
+      <Button fx:id="back" layoutX="1319.0" layoutY="20.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="58.0" prefWidth="65.0" text="Button" />
+      <TableView fx:id="tableView" layoutX="1.0" layoutY="160.0" prefHeight="560.0" prefWidth="1400.0">
+        <columns>
+          <TableColumn fx:id="customerId" prefWidth="152.0" text="Customer ID" />
+          <TableColumn fx:id="firstName" prefWidth="137.0" text="First Name" />
+            <TableColumn fx:id="lastName" prefWidth="128.0" text="Last Name" />
+            <TableColumn fx:id="mobileNumber" prefWidth="140.0" text="Mobile No" />
+            <TableColumn fx:id="gender" prefWidth="100.0" text="Gender " />
+            <TableColumn fx:id="dateOfBirth" prefWidth="109.0" text="D.O.B." />
+            <TableColumn fx:id="branch" prefWidth="95.0" text="Branch" />
+            <TableColumn fx:id="permanentAddress" prefWidth="239.0" text="Permanent Address" />
+            <TableColumn fx:id="presentAddress" prefWidth="135.0" text="Present Address" />
+            <TableColumn fx:id="registerDate" prefWidth="164.0" text="Register Date" />
+        </columns>
+      </TableView>
+      <Label layoutX="24.0" layoutY="106.0" />
+      <TextField fx:id="searchByCustomerId" layoutX="14.0" layoutY="112.0" prefHeight="33.0" prefWidth="196.0" promptText="Search By Customer ID" />
+      <TextField fx:id="searchByFirstName" layoutX="237.0" layoutY="111.0" prefHeight="33.0" prefWidth="196.0" promptText="Search By First Name" />
+      <TextField fx:id="searchByGender" layoutX="470.0" layoutY="111.0" prefHeight="33.0" prefWidth="196.0" promptText="Search By Gender" />
+      <Button fx:id="reset" layoutX="1204.0" layoutY="104.0" mnemonicParsing="false" onAction="#reset" prefHeight="40.0" prefWidth="172.0" text="Reset" textFill="#1b1a1a">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+  </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="729.0" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="account_transfer.AccountTransferController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="169.00010681152344" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1399.99977792969" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="560.9998779296875" layoutX="0.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="1400.00022207031" />
+    <ImageView fitHeight="515.3907969042991" fitWidth="968.999755859375" layoutX="431.0" layoutY="169.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MoneyPaint.jpg" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="158.0001220703125" fitWidth="150.41612214543298" layoutX="29.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bankk2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="134.0" fitWidth="134.0" layoutX="1220.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@office2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <Label layoutX="442.0" layoutY="62.0" text="Online  Bank" textFill="BLACK">
+      <font>
+        <Font name="System Bold" size="35.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="673.0" layoutY="61.0" text="Management  System" textFill="BLACK" />
+    <Label layoutX="114.0" layoutY="518.0" text="Account Transfer..!!">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="674.0" layoutY="306.0" text="To Account Number">
+      <font>
+        <Font size="25.0" fx:id="x2" />
+      </font>
+    </Label>
+    <TextField id="email_Id" fx:id="toAccountNumber" layoutX="674.0" layoutY="350.0" opacity="0.82" prefHeight="54.0" prefWidth="404.0" promptText="Enter card Id..." style="" />
+    <Label font="$x2" layoutX="673.0" layoutY="400.0" text="Amount" />
+    <TextField id="password" fx:id="amount" layoutX="673.0" layoutY="442.0" opacity="0.82" prefHeight="54.0" prefWidth="404.0" promptText="Enter amount.." style="&#10;" />
+    <Button fx:id="accountTransfer" blendMode="SRC_OVER" layoutX="782.0" layoutY="634.0" mnemonicParsing="false" mouseTransparent="false" onAction="#accountTransfer" prefHeight="51.0" prefWidth="188.0" text="Account Tranfer" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x3" />
+      </font>
+      <rotationAxis>
+        <Point3D x="2.0" y="2.0" z="2.0" />
+      </rotationAxis>
+    </Button>
+    <TextField id="password" fx:id="pin" layoutX="674.0" layoutY="548.0" opacity="0.82" prefHeight="54.0" prefWidth="404.0" promptText="Enter pin.." style="&#10;" />
+    <Label font="$x2" layoutX="673.0" layoutY="512.0" text="Pin" />
+    <Button fx:id="back" blendMode="SRC_OVER" font="$x3" layoutX="1193.0" layoutY="634.0" mnemonicParsing="false" mouseTransparent="false" onAction="#back" prefHeight="51.0" prefWidth="188.0" text="Back" textFill="#e40000">
+      <rotationAxis>
+        <Point3D x="2.0" y="2.0" z="2.0" />
+      </rotationAxis>
+    </Button>
+    <ImageView fitHeight="243.8063216404932" fitWidth="433.0" layoutX="29.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Send-removebg-preview.png" />
+      </image>
+    </ImageView>
+    <Separator layoutX="473.0" layoutY="169.0" orientation="VERTICAL" prefHeight="560.9998779296875" />
+      <Label fx:id="messageLabel" layoutX="462.0" layoutY="169.0" opacity="0.0" prefHeight="46.0" prefWidth="545.0" text="Label" />
+      <TextField id="email_Id" fx:id="fromAccountNumber" layoutX="674.0" layoutY="252.0" opacity="0.82" prefHeight="54.0" prefWidth="404.0" promptText="Enter card Id..." style="" />
+      <Label layoutX="674.0" layoutY="204.0" text="From Account Number">
+         <font>
+            <Font size="25.0" fx:id="x21" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>

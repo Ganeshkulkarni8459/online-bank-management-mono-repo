@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin_register.AdminRegisterScreenController">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d63484" height="200.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="1406.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f4ec" height="502.0" layoutX="0.0" layoutY="198.0" stroke="BLACK" strokeType="INSIDE" width="1406.0" />
+    <ImageView fitHeight="173.6050417557921" fitWidth="165.27200317382812" layoutX="28.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bankk2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="141.60504150390625" fitWidth="141.60504150390625" layoutX="1224.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@office2-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <ImageView fitHeight="501.9999694824219" fitWidth="943.8232264702955" layoutX="455.0" layoutY="198.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MoneyPaint.jpg" />
+         </image>
+    </ImageView>
+    <Label layoutX="325.0" layoutY="77.0" text="Welcome To Online Bank Management System">
+      <font>
+        <Font name="System Bold" size="35.0" />
+      </font>
+    </Label>
+    <Label layoutX="86.0" layoutY="482.0" text="Admin Register...!">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="600.0" layoutY="262.0" text="Admin Email">
+      <font>
+        <Font size="25.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="600.0" layoutY="488.0" text="Password" />
+    <Button fx:id="registerAdmin" layoutX="708.0" layoutY="614.0" mnemonicParsing="false" onAction="#registerAdmin" prefHeight="54.0" prefWidth="188.0" text="Register Admin" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="21.0" fx:id="x2" />
+      </font>
+    </Button>
+    <TextField id="email" fx:id="adminEmail" layoutX="603.0" layoutY="310.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter email......" />
+    <TextField fx:id="password" layoutX="600.0" layoutY="533.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter Password" />
+    <Label font="$x1" layoutX="600.0" layoutY="378.0" prefWidth="118.0" text="Admin Id" />
+    <TextField fx:id="adminId" layoutX="603.0" layoutY="427.0" prefHeight="54.0" prefWidth="404.0" promptText="Enter admin id...." />
+    <Button fx:id="back" font="$x2" layoutX="1201.0" layoutY="614.0" mnemonicParsing="false" onAction="#back" prefHeight="54.0" prefWidth="188.0" text="Back" textFill="#f22f0c" />
+    <ImageView fitHeight="188.0" fitWidth="188.0" layoutX="119.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OIP__3_-removebg-preview.png" />
+         </image>
+    </ImageView>
+    <Separator layoutX="454.0" layoutY="198.0" minWidth="1.0001220703125" orientation="VERTICAL" prefHeight="497.99993896484375" prefWidth="2.0" />
+  </children>
+</AnchorPane>

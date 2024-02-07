@@ -1,0 +1,99 @@
+
+#AnchorPane {
+    -fx-background-color: #f8f4ec; /* Background color for the entire AnchorPane */
+}
+
+.button {
+    -fx-background-radius: 10; /* Rounded corners for buttons */
+    -fx-border-radius: 10;
+}
+.text-field {
+    -fx-prompt-text-fill: #d93fe4; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-border-radius: 10; /* Rounded corners for text fields */
+    -fx-background-radius: 10;
+    -fx-font-size: 20px;  
+    -fx-font-style: "sans-serif";
+}
+.comboBox{
+    -fx-border-color:#d63484 ;
+    -fx-prompt-text-fill: #d93fe4;
+
+}
+.text-field:hover {
+    -fx-background-color: #37e6de; /* Background color for text fields on hover */
+    -fx-border-color: #030404; /* Border color for text fields on hover */
+}
+
+#messageLabel {
+    -fx-text-fill: #ff0000; /* Text color for messages */
+    -fx-font-size: 18px; /* Font size for messages */
+}
+
+#separator {
+    -fx-background-color: #d63484; /* Color for separator line */
+}
+#fetch{
+    -fx-background-color: #16d919;
+    -fx-border-color:black ;
+}
+#fetch:hover{
+    -fx-background-color: #000000;
+}
+#reset{
+    -fx-background-color: #16d919;
+    -fx-border-color:black ;
+}
+#reset:hover{
+    -fx-background-color: #000000;
+}
+
+
+/* style.css */
+
+.table-view {
+    -fx-background-color: #f8f4ec; /* Background color for the table */
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff; /* Background color for each row */
+    -fx-text-fill: #141414; /* Text color for the row */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e6e6e6; /* Background color on hover */
+}
+
+.table-column {
+    -fx-alignment: CENTER; /* Center-align content in the columns */
+}
+
+.table-column-header {
+    -fx-background-color: #d63484; /* Background color for column headers */
+    -fx-text-fill: #ffffff; /* Text color for column headers */
+}
+
+.table-view:focused .table-row-cell:focused:selected {
+    -fx-background-color: #16d919; /* Background color for selected row when focused */
+}
+
+.table-view:focused .table-row-cell:focused {
+    -fx-background-color: transparent; /* Transparent background for focused row */
+    -fx-border-color: #d63484; /* Border color for focused row */
+    -fx-border-width: 1; /* Border width for focused row */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #d63484; /* Background color for the header area */
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent; /* Transparent background for column headers */
+    -fx-border-color: #d63484; /* Border color for column headers */
+    -fx-border-width: 1; /* Border width for column headers */
+}
+
+.table-view .scroll-bar {
+    -fx-background-color: #ffffff; /* Background color for scroll bar */
+}
